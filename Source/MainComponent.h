@@ -32,9 +32,11 @@ public:
     void resized() override;
 
 private:
-    //==============================================================================
-    // Your private member variables go here...
-
+    Random random;
+    //Slider levelSlider;
+    //Label levelLabel;
+    Slider lvl_l_sli, lvl_r_sli;
+    Label lvl_l_lbl, lvl_r_lbl;
 
     JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (MainComponent)
 };
